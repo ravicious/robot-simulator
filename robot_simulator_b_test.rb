@@ -15,13 +15,6 @@ class RobotTurningTest < Minitest::Test
     end
   end
 
-  def test_invalid_robot_bearing
-    skip
-    assert_raises ArgumentError do
-      robot.orient(:crood)
-    end
-  end
-
   def test_turn_right_from_north
     skip
     robot.orient(:north)
